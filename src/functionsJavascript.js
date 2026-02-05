@@ -12,3 +12,14 @@ greetings();
 greetings("Anna");
 greetings("John");
 
+function mystery(a, b=3) {
+    return a * b;
+}
+console.log(mystery(4));
+
+//function expressions example
+const add = function (a, b) {
+    return a + b;
+}
+let z = add(5,28)
+console.log(z);
